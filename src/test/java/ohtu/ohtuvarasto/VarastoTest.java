@@ -32,10 +32,10 @@ public class VarastoTest {
 
     @Test
     public void lisaysLisaaSaldoa() {
-        varasto.lisaaVarastoon(8);
+        varasto.lisaaVarastoon(9);
 
         // saldon pitäisi olla sama kun lisätty määrä
-        assertEquals(8, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(9, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
